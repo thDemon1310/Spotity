@@ -59,14 +59,14 @@ nav ul li a{
 }
 body {
   background-color: var(--mainbg);
-  padding: 15px;
+  padding: 7px 15px 0 15px;
 }
 .container {
   display: grid;
-  width: 98.8vw;
-  height: 96.5vh;
+  width: 99vw;
+  height: 98vh;
   grid-template-columns: 23% 76%;
-  grid-template-rows: 21% 70% 9%;
+  grid-template-rows: 21% 68% 9%;
   gap: 10px;
 }
 .section1 {
@@ -274,4 +274,9 @@ body {
   height: 100%;
   border: 1px solid var(--secbordercolor);
   border-radius: 10px;
+}
+/* ==================footer=========================== */
+footer{
+  grid-row: 3/4;
+  grid-column: 1/3;
 }
