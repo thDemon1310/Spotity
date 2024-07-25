@@ -64,9 +64,9 @@ body {
 .container {
   display: grid;
   width: 99vw;
-  height: 98vh;
+  height: 99vh;
   grid-template-columns: 23% 76%;
-  grid-template-rows: 21% 68% 9%;
+  grid-template-rows: 21% 68% 8%;
   gap: 10px;
 }
 .section1 {
@@ -210,6 +210,7 @@ body {
   border-radius: 40px;
   font-weight: 550;
   font-size: 14px;
+  cursor: pointer;
 }
 /* ----------------------------- */
 .lower{
@@ -345,4 +346,35 @@ body {
 footer{
   grid-row: 3/4;
   grid-column: 1/3;
+  padding: 10px;
+  padding-right: 30px;
+  background-image: linear-gradient(90deg, #af2896, #509bf5);
+  display: flex;
+  justify-content: space-between;
 }
+footer .preview{
+  width: 35%;
+  height: 100%;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .fsignup{
+  height: 100%;
+  width: 8%;
+}
+.fsignup button{
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 30px;
+  /* margin-right: 10px; */
+}
+.fsignup button a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+}
+/* ============================================================= */
