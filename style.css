@@ -99,7 +99,7 @@ body {
   fill: white;
   width: 60%;
   height: 50%;
-  margin:15px 10px 10px 10px;
+  margin: 15px 10px 10px 10px;
 }
 .icon2_A {
   grid-row: 2/3;
@@ -112,15 +112,15 @@ body {
   height: 90%;
   margin: 20px 20px 20px 4px;
 }
-.icon3 svg{
+.icon3 svg {
   grid-row: 3/4;
   grid-column: 1/2;
   width: 60%;
   height: 50%;
   fill: white;
-  margin:0 10px 10px 10px;
+  margin: 0 10px 10px 10px;
 }
-.icon3_A{
+.icon3_A {
   grid-row: 3/4;
   grid-column: 2/3;
   text-decoration: none;
@@ -131,7 +131,6 @@ body {
   height: 90%;
   margin: 0 20px 20px 4px;
 }
-
 
 /* ====================Section2======================= */
 
@@ -144,27 +143,27 @@ body {
   border: 1px solid var(--secbordercolor);
   border-radius: 10px;
 }
-.upper{
+.upper {
   width: 100%;
   height: 60%;
   display: grid;
   grid-template-columns: 0.35fr 2.5fr 0.35fr;
-  grid-template-rows: .75fr 2.15fr 2.15fr;
+  grid-template-rows: 0.75fr 2.15fr 2.15fr;
   gap: 30px;
   padding: 10px;
 }
-.upper svg{
+.upper svg {
   fill: white;
   width: 70%;
   height: 60%;
   margin: auto;
 }
-.upper h3{
+.upper h3 {
   align-self: center;
   margin-left: 10px;
   color: white;
 }
-.upper .upart1{
+.upper .upart1 {
   grid-row: 2/3;
   grid-column: 1/4;
   display: flex;
@@ -175,11 +174,11 @@ body {
   background-color: var(--section2partcolor);
   border-radius: 10px;
 }
-.upart1 p{
-  margin-bottom:5px;
+.upart1 p {
+  margin-bottom: 5px;
   font-size: 13px;
 }
-.upart1 button{
+.upart1 button {
   width: 130px;
   height: 30px;
   border: none;
@@ -188,7 +187,7 @@ body {
   font-size: 15px;
 }
 /* ---------------------------- */
-.upper .upart2{
+.upper .upart2 {
   grid-column: 1/4;
   grid-row: 3/4;
   display: flex;
@@ -199,11 +198,11 @@ body {
   background-color: var(--section2partcolor);
   border-radius: 10px;
 }
-.upart2 p{
-  margin-bottom:5px;
+.upart2 p {
+  margin-bottom: 5px;
   font-size: 13px;
 }
-.upart2 button{
+.upart2 button {
   width: 135px;
   height: 30px;
   border: none;
@@ -213,7 +212,7 @@ body {
   cursor: pointer;
 }
 /* ----------------------------- */
-.lower{
+.lower {
   width: 100%;
   height: 40%;
   display: grid;
@@ -222,36 +221,36 @@ body {
   padding: 40px 20px;
   gap: 26px;
 }
-.lower .links{
+.lower .links {
   grid-row: 1/2;
   grid-column: 1/2;
   /* align-self: flex-end; */
-  padding-top: 50px ;
+  padding-top: 50px;
   padding-bottom: 13px;
   display: flex;
   flex-wrap: wrap;
 }
-.lower .links a{
+.lower .links a {
   color: white;
   text-decoration: none;
   font-size: 12px;
   margin: 10px;
 }
-.lower button{
+.lower button {
   grid-row: 2/3;
   grid-column: 1/2;
   width: 105px;
   height: 35px;
-  background-color:#121212;
+  background-color: #121212;
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr;
   color: white;
   border: 1px solid gray;
-  border-radius: 30px; ;
+  border-radius: 30px;
   padding: 0 5px;
 }
-.lower button svg{
+.lower button svg {
   fill: white;
   width: 100%;
   height: 100%;
@@ -259,15 +258,15 @@ body {
   grid-column: 1/2;
   margin: auto;
 }
-.lower button span{
+.lower button span {
   font-size: 15px;
-  font-weight:550;
+  font-weight: 550;
   align-self: center;
   justify-self: center;
 }
 /* =====================Section3======================= */
 
-.section3{
+.section3 {
   grid-row: 1/3;
   grid-column: 2/3;
   background-color: var(--sectionbg);
@@ -276,62 +275,62 @@ body {
   border: 1px solid var(--secbordercolor);
   border-radius: 10px;
   display: grid;
-  grid-template-rows: .75fr 4fr 4fr;
+  grid-template-rows: 0.75fr 4fr 4fr;
   grid-template-columns: 1fr;
 }
 /* ----------section3 ka head---------- */
-.section3_head{
+.section3_head {
   display: flex;
   justify-content: space-between;
   padding: 0 30px;
-  background-color: #2a2a2a7c;
+  background-color: #161616;
   border-radius: 10px 10px 0 0;
 }
 /* -------------head mai nav arrows */
-.section3_head .arrow{
+.section3_head .arrow {
   width: 120px;
   height: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.button_arrow_dimension{
+.button_arrow_dimension {
   width: 28%;
   height: 45%;
   border-radius: 50%;
   border: none;
-  background-color: #121212;
+  background-color: #000000;
 }
-.button_arrow_dimension:hover{
+.button_arrow_dimension:hover {
   cursor: not-allowed;
 }
-.button_arrow_dimension svg{
-  fill: rgba(255, 255, 255, 0.312);
+.button_arrow_dimension svg {
+  fill: rgba(255, 255, 255, 0.468);
   width: 40%;
-  margin: auto;
+  margin: 9px;
 }
 /* ---------sign in and login------------ */
-.section3_head .login{
+.section3_head .login {
   width: 200px;
   height: 100%;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 40% 60%;
 }
-.login a{
+.login a {
   text-decoration: none;
   font-weight: 550;
   font-size: 16px;
 }
-.login .sign{
+.login .sign {
   justify-self: center;
   align-self: center;
   color: rgb(170, 170, 170);
 }
-.login .sign:hover{
+.login .sign:hover {
   color: white;
 }
-.login button{
+.login button {
   width: 90%;
   height: 70%;
   border: none;
@@ -339,11 +338,163 @@ body {
   align-self: center;
   justify-self: center;
 }
-.login button .log{
+.login button .log {
   color: black;
 }
+/* --------------Popular_artist */
+.popular_artist {
+  /* box-shadow: inset 0px 90px 130px 0px #80808040; */
+  background-image: linear-gradient(#80808033, #1212129d, #121212);
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+}
+/* ---------artist_upper------- */
+.artist_upper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+/* ---------- */
+.artist_upper h3 {
+  font-size: 24px;
+}
+.artist_upper h3 a {
+  color: white;
+  text-decoration: none;
+  word-spacing: -4px;
+}
+.artist_upper h3 a:hover {
+  text-decoration: underline;
+}
+/* ----------- */
+.artist_upper p {
+  font-size: 16px;
+}
+.artist_upper p a {
+  color: rgb(132, 131, 131);
+  text-decoration: none;
+  font-weight: 600;
+}
+.artist_upper p a:hover {
+  text-decoration: underline;
+}
+/* ----------artist_lower------------- */
+.artist_lower {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(6, 1fr);
+}
+/* ------------artist_flashcard----*/
+.artist_flashcard {
+  width: 100%;
+  height: 100%;
+}
+.artist_flashcard a {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 4fr 1fr;
+  text-decoration: none;
+}
+/* -----.artist_flashcard a:hover------- */
+.artist_flashcard a:hover{
+  background-image: linear-gradient(rgba(24, 24, 24, 0.144),rgba(128, 128, 128, 0.308));
+}
+.artist_flashcard a:hover .artist_image button {
+  opacity: 1;
+  visibility: visible;
+  animation-name: playbutton;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+/* ----Artist_image and button--------- */
+.artist_image {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 3fr 1fr 0.8fr;
+  grid-template-rows: 3fr 1fr 0.6fr;
+}
+.artist_image img {
+  width: 83%;
+  height: 84%;
+  border-radius: 50%;
+  grid-row: 1/4;
+  grid-column: 1/4;
+  justify-self: center;
+  align-self: center;
+}
+/* .artist_image button {
+  display: none;
+  width: 99%;
+  height: 90%;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(0, 247, 0);
+  align-self: center;
+  animation-name: playbutton;
+  animation-duration: 1s;
+}
+@keyframes playbutton{
+  from{display:none;}
+  to{display:contents}
+} */
+.artist_image button {
+  opacity: 0;
+  visibility: hidden;
+  width: 99%;
+  height: 90%;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(0, 247, 0);
+  align-self: center;
+  transition: opacity .6s, visibility .6s;
+  cursor:pointer;
+  position: relative;
+  top: 20px;
+}
+@keyframes playbutton{
+  from{top: 20px;}
+  to{top: 10px;}
+}
+.artist_image button:hover{
+  transform: scale(1.2,1.2);
+  background-color: rgb(112, 243, 112);
+  transition: transform .6s;
+}
+.artist_image button svg{
+  width: 72%;
+  height: 100%;
+}
+/* ---------artist_name--------- */
+.artist_name{
+  width: 100%;
+  height: 100%;
+  padding: 0px 15px 15px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.artist_name h4{
+  color: rgba(255, 255, 255, 0.874);
+  font-weight: 400;
+}
+.artist_name p{
+  color: gray;
+}
 /* ==================footer=========================== */
-footer{
+footer {
   grid-row: 3/4;
   grid-column: 1/3;
   padding: 10px;
@@ -352,7 +503,7 @@ footer{
   display: flex;
   justify-content: space-between;
 }
-footer .preview{
+footer .preview {
   width: 35%;
   height: 100%;
   padding: 5px 0;
@@ -360,18 +511,18 @@ footer .preview{
   flex-direction: column;
   justify-content: space-between;
 }
-footer .fsignup{
+footer .fsignup {
   height: 100%;
   width: 8%;
 }
-.fsignup button{
+.fsignup button {
   width: 100%;
   height: 100%;
   border: none;
   border-radius: 30px;
   /* margin-right: 10px; */
 }
-.fsignup button a{
+.fsignup button a {
   text-decoration: none;
   color: black;
   font-weight: 600;
