@@ -63,13 +63,14 @@ nav ul li a{
 }
 body {
   background-color: var(--mainbg);
-  padding: 7px 15px 0 15px;
+  /* padding: 7px 15px 0 15px; */
+  padding: 4px 0 0 4px;
 }
 .container {
   display: grid;
   width: 99vw;
-  height: 99vh;
-  grid-template-columns: 23% 76%;
+  height: 115vh;
+  grid-template-columns: 21% 78%;
   grid-template-rows: 21% 68% 8%;
   gap: 10px;
 }
@@ -408,7 +409,7 @@ body {
 }
 /* -----.artist_flashcard a:hover------- */
 .artist_flashcard a:hover {
-  background-image: var(--bghover)
+  background-image: var(--bghover);
 }
 .artist_flashcard a:hover .artist_image button {
   opacity: 1;
@@ -565,7 +566,7 @@ body {
 }
 /* -----.album_flashcard a:hover------- */
 .album_flashcard a:hover {
-  background-image: var(--bghover)
+  background-image: var(--bghover);
 }
 .album_flashcard a:hover .album_image button {
   opacity: 1;
